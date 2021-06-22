@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Waikato</title>
+    <!-- bootstrap and css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Destinations.css">
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <!-- fontawesome icons -->
+        <script src="https://kit.fontawesome.com/1eb3542a05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+     <!-- Nav Bar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">Pure New Zealand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.html#regionMap">Region Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Canterbury.html">Canterbury</a>
+              <a class="dropdown-item" href="Otago.html">Otago</a>
+              <a class="dropdown-item" href="Southland.html">Southland</a>
+              <a class="dropdown-item" href="Waikato.html">Waikato</a>
+              <a class="dropdown-item" href="Wellington.html">Wellington</a>
+            </div>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Events.html">Events Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Events.html#Arts_&_Culture">Arts & Culture</a>
+              <a class="dropdown-item" href="Events.html#Food_&_Wine">Food & Wine</a>
+              <a class="dropdown-item" href="Events.html#Music">Music</a>
+              <a class="dropdown-item" href="Events.html#Sports">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="History.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <!-- Waikato Carousel -->
+
+  <section class="waikatoCarousel">
+    <div id="carousel-inner" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-inner" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-inner" data-slide-to="1"></li>
+          <li data-target="#carousel-inner" data-slide-to="2"></li>
+          <li data-target="#carousel-inner" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="images/img_waikato/Hobbiton_carousel.jpg" alt="First slide" style="display:block">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="images/img_waikato/Hamilton_gardens.jpg" alt="Second slide" style="display:block">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="images/img_waikato/Cathedral_kayak_carousel.jpg" alt="Third slide" style="display:block">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="images/img_waikato/Waikato_nature_carousel.jpg" alt="Fourth slide" style="display:block">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-inner" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-inner" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section> <!-- end of Carousel -->
+
+
+    <!-- heading section -->
+    <section class="heading">
+    <div class="container list Waikato">
+        <h1 class="big-heading">Top Five Waikato Destinations</h1>
+        <p>Waikato hosts many incredible spots for people looking to experience a wide range of scenes, from wondrous rock formations, to beautiful lakes and fields of blooming vibrant flowers, and great natural hotsprings to relax in.</p>
+        </div>
+    </section> <!-- end of header -->
+
+   <!-- content section -->
+   <section class="content">
+    
+    <div class="container list">
+    <!-- Waitomo Caves section  -->
+        <div class="row">
+            <div class="col-lg-1"><h1 class="num-heading">1.</h1></div>
+            <div class="col-lg-5"><h3 class="section-heading"><a href="https://www.waitomo.com" target="_blank">Waitomo Caves</h3></a>
+                <p>Whilst in the Waitomo region you can explore three caves by foot; the Waitomo Glowworm Caves, Ruakuri Cave and Aranui Cave. Each cave is uniquely magical and comes with its own history and culture.</p>
+                <p>Wonder through the Glowworm cave and marvel at its tallest chamber, the Cathedral, before embarking on a boat ride through the glow worm grotto. On the boat ride you’ll sit in silence (glow worms don’t like noise) and be able to take in the magical creatures lighting up the cave above.</p>
+        </div>
+    <img class="col-lg-6 content-image" src ="images/img_waikato/Waitomo_caves1.jpg" alt="Waitomo Caves"/> 
+</div>
+<!-- Cathedral Cove section -->
+    <div class="row">
+        <img class="container one col-lg-6" src ="images/img_waikato/Cathedral_cove1.jpg" alt="Cathedral Cove"/>
+        <div class="col-lg-1"><h1 class="num-heading">2.</h1></div>
+        <div class="container two col-lg-5">
+        <h3 class="section-heading"><a href="https://www.thecoromandel.com/activities/must-do/cathedral-cove/" target="_blank">Cathedral Cove</h3></a>
+        <p>Located on the edge of the great Mercury Bay, close to the village of Hahei, famous Cathedral Cove is one of the “must visit” places in The Coromandel. There are several scenic tracks on land adjacent to the reserve, including the 1.5hr return walk, which give walking access to Gemstone Bay, Mare's Leg and Cathedral Cove.</p>
+        <p>But the very best way to experience the magic of this place and to discover the secrets of the volcanic coastline from which it is formed, is to appraoch on the water, by boat or by kayak.</p>
+    </div>
+    </div>
+    <div class="row">
+    <!-- Hobbiton section -->
+    <div class="col-lg-1"><h1 class="num-heading">3.</h1></div>
+        <div class="col-lg-5">
+            <h3 class="section-heading"><a href="https://www.hobbitontours.com" target="_blank">Hobbiton</h3></a>
+            <p>Fall in love with the Alexander family sheep farm, just as acclaimed director Sir Peter Jackson did, as you journey through the unequivocal beauty of the land, with the mighty Kaimai Ranges towering in the distance. Your guide will then escort you around the set, showing the intricate detailing, pointing out the most famous locations and explaining how the movie magic was made.</p>
+            <p>You will be fully guided on a walking tour around the 12 acre set; past Hobbit Holes™, the Mill and into the world-famous Green Dragon™ Inn, where you will be presented with a complimentary, exclusive Hobbit™ Southfarthing™ beverage to conclude your own Middle-earth™ adventure.</p> 
+        </div>
+        <img class="col-lg-6" src ="images/img_waikato/Hobbiton1.jpg" alt="Hobbiton"/>
+        </div>
+    <!-- Hamilton Gardens section -->
+     <div class="row">
+        <img class="container three col-lg-6" src ="images/img_waikato/Hamilton_gardens1.jpg" alt="Hamilton Gardens"/>
+        <div class="col-lg-1"><h1 class="num-heading">4.</h1></div>
+        <div class="container four col-lg-5"><a href="https://hamiltongardens.co.nz/" target="_blank">
+        <h3 class="section-heading">Hamilton Gardens</h3></a>
+        <p>The Hamilton Gardens’ unique concept – which is closer to a garden-based history exhibit than a botanic garden in the strictest of terms – entices nature lovers of all kinds to delve into its magnificent public parkland.</p><p>Here, you’ll find a collection of garden traditions from all over the world, as well as a showcase of traditional Maori cultivation methods and ceremonial practices.</p>
+    </div>
+    </div>
+    <!-- Bridal Veil Falls section -->
+    <div class="row">
+        <div class="col-lg-1"><h1 class="num-heading">5.</h1></div>
+        <div class="col-lg-5">
+            <h3 class="section-heading"><a href="https://www.doc.govt.nz/waireinga" target="_blank">Bridal Veil Falls</h3></a>
+            <p>Also known by the Maori name Waireinga, the Bridal Veil Falls is a plunge waterfall located within easy reach of the popular beach town of Raglan. A quick walk up a well-formed track will give you a glimpse of this majestic cascade in all its 55-metre glory.</p>
+            <p>The two viewing platforms at the top of the falls provide spectacular views of the falls and surrounding countryside. From here, the track descends steeply down stairs to a midway viewpoint. The track continues down more stairs to the bottom view bridge and information shelter where there is a magnificent view directly across the pool and up at the falls.</p>
+        </div>
+        <img class="col-lg-6" src ="images/img_waikato/Bridal_veil_falls.jpg" alt="Bridal Veil Falls"/>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Footer section -->
+<section class="footer">
+  <footer class="bg-dark text-center text-white">
+    <!-- Footer container -->
+    <div class="container p-4 pb-0">
+      <p>Follow our Social Media!</p>
+      <!-- Social media buttons -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i></a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-twitter"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-google"></i></a>
+  
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021: Justin Halvorsen
+    </div>
+  </footer>
+  </section>
+</body>
+</html>
